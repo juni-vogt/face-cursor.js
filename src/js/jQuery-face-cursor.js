@@ -44,8 +44,6 @@
 	var pluginLogic = {
 
 		get settings() {
-			console.log(this.options);
-
 			delete this.settings; // go cache yourself
 			return this.settings = $.extend(true, {}, defaults, this.options);
 		},
@@ -114,8 +112,6 @@
 					yDistToCenter = proto.lastMouseCoords.y - (data.offset.top + data.h / 2),
 					relXDistToCenter = xDistToCenter / (data.w / 2),
 					relYDistToCenter = yDistToCenter / (data.h / 2);
-
-				console.log(proto.settings);
 
 				$el.css(
 					"transform",
