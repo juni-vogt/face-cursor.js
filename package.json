@@ -1,7 +1,7 @@
 {
   "name": "face-cursor.js",
   "description": "jQuery plugin to 3D transform elements relative to the cursor position",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Matthias Vogt",
   "bugs": "https://github.com/matthias-vogt/jQuery-face-cursor/issues",
   "dependencies": {
